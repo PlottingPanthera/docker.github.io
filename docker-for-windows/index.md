@@ -276,7 +276,7 @@ PowerShell Module as follows.
         New-Item $PROFILE –Type File –Force
     }
 
-    Add-Content $PROFILE "`nImport-Module posh-docker"
+    Add-Content $PROFILE "`Import-Module posh-docker'"
     ```
 
     This creates a `$PROFILE` if one does not already exist, and adds this line
